@@ -1,0 +1,8 @@
+# EM-Algorithm Converting Outlier Score into Probabilities
+This project is based on the paper **"Converting Output Scores from Outlier Detection Algorithms into Probability Estimates"** by Xiong, Liu, and Zhou. The paper presents a method for converting outlier scores into probabilities using the EM algorithm in the context of anomaly detection.
+
+Outlier scores are commonly used in anomaly detection applications to identify data points that are significantly different from the rest of the data. However, outlier scores alone do not provide a clear indication of the probability that a data point is an outlier. The EM algorithm can be used to estimate the probabilities that a given data point belongs to either the normal distribution or the outlier distribution, thus providing a more informative measure of the likelihood that a data point is an outlier.
+
+Moreover, the conversion of outlier scores into probabilities allows for ensemble modeling in anomaly detection. Ensemble modeling combines the output of multiple models to improve the overall performance of the system. However, combining the output of different models with different outlier scores is challenging. By converting these scores into probabilities, it is possible to combine the output of multiple models in a meaningful way, improving the accuracy and robustness of the detection system.
+
+Overall, the insights and techniques presented in the paper are valuable for improving the accuracy and robustness of anomaly detection systems. By leveraging the EM algorithm to convert outlier scores into probabilities, we can gain more insight into the likelihood of a data point being an outlier and enable ensemble modeling in anomaly detection.
